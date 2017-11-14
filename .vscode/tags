@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+a	../helloworld.py	/^a = 1$/;"	kind:variable	line:3
+admin_menu.py	../admin_menu.py	1;"	kind:file	line:1
+age	../myfile.py	/^age = 40$/;"	kind:variable	line:3
+ago	../check_changed.py	/^ago = now-dt.timedelta(minutes=30)$/;"	kind:variable	line:5
+b	../helloworld.py	/^b = 2$/;"	kind:variable	line:4
+check_changed.py	../check_changed.py	1;"	kind:file	line:1
+check_last_modified.py	../check_last_modified.py	1;"	kind:file	line:1
+check_process.py	../check_process.py	1;"	kind:file	line:1
+dt	../check_changed.py	/^import datetime as dt$/;"	kind:namespace	line:2
+filename	../check_last_modified.py	/^filename = "\/var\/log\/messages"$/;"	kind:variable	line:3
+firstname	../myfile.py	/^firstname = "Timo"$/;"	kind:variable	line:1
+helloworld.py	../helloworld.py	1;"	kind:file	line:1
+menu	../admin_menu.py	/^menu = {}$/;"	kind:variable	line:1
+modified	../check_last_modified.py	/^modified = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(os.path.getmtime(filename)))$/;"	kind:variable	line:4
+mtime	../check_changed.py	/^        mtime = dt.datetime.fromtimestamp(st.st_mtime)$/;"	kind:variable	line:11
+myfile.py	../myfile.py	1;"	kind:file	line:1
+now	../check_changed.py	/^now = dt.datetime.now()$/;"	kind:variable	line:4
+options	../admin_menu.py	/^  options=menu.keys()$/;"	kind:variable	line:7
+os	../check_changed.py	/^import os$/;"	kind:namespace	line:1
+os	../check_last_modified.py	/^import os$/;"	kind:namespace	line:1
+os	../check_process.py	/^import os$/;"	kind:namespace	line:1
+path	../check_changed.py	/^        path = os.path.join(root, fname)$/;"	kind:variable	line:9
+process_name	../check_process.py	/^process_name = "rsyslogd"$/;"	kind:variable	line:2
+selection	../admin_menu.py	/^    selection=input("Please Select:") $/;"	kind:variable	line:12
+st	../check_changed.py	/^        st = os.stat(path)    $/;"	kind:variable	line:10
+surname	../myfile.py	/^surname = "Verbeek"$/;"	kind:variable	line:2
+time	../check_last_modified.py	/^import time$/;"	kind:namespace	line:2
+tmp	../check_process.py	/^tmp = os.popen("ps -Af").read()$/;"	kind:variable	line:3
